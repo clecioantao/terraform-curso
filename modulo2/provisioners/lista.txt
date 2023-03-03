@@ -1,0 +1,10 @@
+total 40
+drwxr-xr-x  9 cantao  staff   288 26 Fev 07:33 .
+drwxr-xr-x  5 cantao  staff   160 26 Fev 07:13 ..
+drwxr-xr-x  3 cantao  staff    96 26 Fev 07:26 .terraform
+-rw-r--r--  1 cantao  staff  1152 26 Fev 07:26 .terraform.lock.hcl
+-rw-------  1 cantao  staff   211 26 Fev 07:33 .terraform.tfstate.lock.info
+-rw-r--r--  1 cantao  staff     0 26 Fev 07:33 lista.txt
+-rw-r--r--  1 cantao  staff   166 26 Fev 07:32 provisioners.tf
+-rw-r--r--  1 cantao  staff   155 26 Fev 07:33 terraform.tfstate
+-rw-r--r--  1 cantao  staff   592 26 Fev 07:33 terraform.tfstate.backup

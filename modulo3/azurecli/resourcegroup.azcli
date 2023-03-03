@@ -1,0 +1,11 @@
+# verificar a versao do az cli
+az version
+
+# logar
+az login
+
+# criar resource group
+az group create --location brazilsouth --name rgazurecliwin
+
+# del resource group
+az group delete --name rgazurecliwin -y

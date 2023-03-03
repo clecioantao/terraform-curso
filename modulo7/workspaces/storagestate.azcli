@@ -1,0 +1,16 @@
+# logar azure
+az login
+
+# criar grupo de recurso
+az group create --location eastus --name state-gp
+
+# criar storage account
+az storage account create --name storagestatexyz --resource-group state-gp --location eastus --sku Standard_LRS
+
+# criar o container
+az storage container create -n containerstatexyz --account-name storagestatexyz
+
+# recupera chave azure blob storage
+az storage account keys list --account-name storagestatexyz --resource-group state-gp
+# "value": "ey5fkXUAyuWrrC7dDsnVgbcmWxL1e/dXvBmesxnZPqzzBVOqZqkr86Lf5Pt+q2QPpzQ6R0Q2obyl+AStnq2P5g=="
+

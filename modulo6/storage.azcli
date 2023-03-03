@@ -1,0 +1,12 @@
+# logar azure
+az login
+
+# criar grupo de recurso
+az group create --location brazilsouth --name terraformstate
+
+# criar storage account
+az storage account create --name tstatetreinamento --resource-group terraformstate --location brazilsouth --sku Standard_LRS
+
+# criar o container
+az storage container create -n terraformstate --account-name tstatetreinamento
+
